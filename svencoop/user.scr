@@ -1,0 +1,143 @@
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"crosshair"
+	{
+		"HUD: Show crosshair"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_weaponautoswitch"
+	{
+		"HUD: New weapon auto-switch mode"
+		{
+			LIST
+			"Never" "0"
+			"Only if better" "1"
+			"Always" "2"
+		}
+		{ "1" }
+	}
+
+	"cl_showfps"
+	{
+		"HUD: Show frame rate (top left corner)"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_hidextra"
+	{
+		"HUD: Hide your donor extras icon"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_hideadmin"
+	{
+		"HUD: Hide your server administrator/owner icon"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hpk_maxsize"
+	{
+		"Graphics: Custom player sprays"
+		{
+			LIST
+			"Disabled" "0"
+			"Enabled: Normal cache (2MB)" "2.0"
+			"Enabled: Large cache (16MB)" "16.0"
+		}
+		{ "2.0" }
+	}
+
+	"mp_decals"
+	{
+		"Graphics: Decal limit"
+		{ NUMBER 1.0 4096.0 }
+		{ "2048.0" }
+	}
+
+	"cl_particles_max"
+	{
+		"Graphics: Particle limit"
+		{ NUMBER 0.0 4096.0 }
+		{ "800.0" }
+	}
+
+	"cl_bob"
+	{
+		"Graphics: View bobbing"
+		{
+			LIST
+			"Disabled" "0"
+			"Normal" "0.01"
+			"Extra" "0.025"
+		}
+		{ "0.025" }
+	}
+
+	"cl_rollangle"
+	{
+		"Graphics: View rolling"
+		{
+			LIST
+			"Disabled" "0"
+			"Normal" "2.0"
+			"Extra" "5.0"
+			"Inverted" "-2.0"
+			"Inverted Extra" "-5.0"
+		}
+		{ "2" }
+	}
+
+	"s_mute_unfocused"
+	{
+		"Sound: Mute all output while the window is not in focus"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"s_force_dsound"
+	{
+		"Sound: Force DirectSound instead of WASAPI (requires restart)"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_discord"
+	{
+		"Discord: Rich presence"
+		{
+			LIST
+			"In game indicator only" "0"
+			"In game + server stats" "1"
+			"In game + server stats + allow invites to join" "2"
+		}
+		{ "2" }
+	}
+
+	"con_mono"
+	{
+		"Developer: Mono-spaced console font"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"developer"
+	{
+		"Developer: Mode (degrades speed!)"
+		{
+			LIST
+			"Disabled" "0"
+			"Standard" "1"
+			"Verbose" "2"
+			"Very verbose" "3"
+			"Extremely verbose" "4"
+		}
+		{ "0" }
+	}
+}
