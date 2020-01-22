@@ -332,3 +332,5 @@ vgui2.dll
 vstdlib.dll
 vstdlib_s.dll
 vstdlib_s64.dll
+*.log
+svencoop/custom.hpk
