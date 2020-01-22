@@ -333,4 +333,6 @@ vstdlib.dll
 vstdlib_s.dll
 vstdlib_s64.dll
 *.log
+*.rar
 svencoop/custom.hpk
+
