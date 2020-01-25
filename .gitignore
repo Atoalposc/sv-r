@@ -336,3 +336,6 @@ vstdlib_s64.dll
 *.rar
 svencoop/custom.hpk
 
+svencoop/scripts/plugins/ChatSounds.txt
+svencoop/server.cfg
+svencoop/server.cfg
