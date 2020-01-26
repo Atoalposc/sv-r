@@ -101,7 +101,7 @@ open moxxi/open.ogg
 texto moxxi/texto.ogg
 wheeze moxxi/wheeze.ogg
 bhop moxxi/bhop.ogg
-wtf3 moxxi/wtf4.ogg
+wtf4 moxxi/wtf4.ogg
 sniper1 moxxi/sniper1.ogg
 door1 moxxi/door1.ogg
 scaped moxxi/scaped.ogg
