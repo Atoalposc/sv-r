@@ -333,19 +333,5 @@ vstdlib.dll
 vstdlib_s.dll
 vstdlib_s64.dll
 *.log
-*.rar
 svencoop/custom.hpk
 
-svencoop/scripts/plugins/ChatSounds.txt
-svencoop/server.cfg
-svencoop/server.cfg
-svencoop/server.cfg
-svencoop/maps/soundcache/rust_lobby.txt
-svencoop/maps/soundcache/rust_lobby.txt.ztmp
-svencoop/maps/soundcache/rust_mini_b9.txt
-svencoop/maps/soundcache/rust_mini_b9.txt.ztmp
-svencoop/server.cfg
-svencoop/maps/soundcache/rust_mini_b9.txt.ztmp
-svencoop/maps/soundcache/rust_lobby.txt.ztmp
-svencoop/maps/soundcache/rust_lobby.txt
-svencoop/maps/soundcache/rust_lobby.txt.ztmp
