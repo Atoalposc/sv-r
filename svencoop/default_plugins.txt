@@ -6,18 +6,19 @@
 //========================================
 "plugins"
 {
+	
+    "plugin"
+    {
+		"name" "ChatSounds"
+		"script" "ChatSounds"
+    }
+
 	"plugin"
 	{
 		"name" "PlayerManagement"
 		"script" "admin/PlayerManagement"
 		"concommandns" "plrmgr"
 	}
-	
-    "plugin"
-    {
-        "name" "ChatSounds"
-        "script" "ChatSounds"
-    }	
 
 //	"plugin"
 //	{

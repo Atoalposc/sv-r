@@ -1,5 +1,5 @@
 const string g_SpriteName = 'sprites/voiceicon.spr';
-const uint g_Delay = 8000;
+const uint g_Delay = 0;
 
 dictionary g_SoundList;
 dictionary g_ChatTimes;
@@ -9,7 +9,7 @@ array<string> @g_SoundListKeys;
 CClientCommand g_ListSounds("listsounds", "List all chat sounds", @listsounds);
 
 void PluginInit() {
-  g_Module.ScriptInfo.SetAuthor("incognico");
+  g_Module.ScriptInfo.SetAuthor("animaliZed");
   g_Module.ScriptInfo.SetContactInfo("irc://irc.rizon.net/#/dev/null");
 
   g_Hooks.RegisterHook(Hooks::Player::ClientSay, @ClientSay);
@@ -28,7 +28,7 @@ void MapInit() {
   g_Game.PrecacheModel(g_SpriteName);
 }
 
-const string g_SoundFile = "scripts/plugins/cfg/ChatSounds.txt";
+const string g_SoundFile = "scripts/plugins/ChatSounds.txt";
 void ReadSounds() {
   File@ file = g_FileSystem.OpenFile(g_SoundFile, OpenFile::READ);
   if (file !is null && file.IsOpen()) {
@@ -46,7 +46,6 @@ void ReadSounds() {
     }
     file.Close();
     @g_SoundListKeys = g_SoundList.getKeys();
-    g_SoundListKeys.sortAsc();
   }
 }
 
@@ -96,11 +95,11 @@ HookReturnCode ClientSay(SayParameters@ pParams) {
 
       if (d < g_Delay) {
         float w = float(g_Delay - d) / 1000.0f;
-        g_PlayerFuncs.ClientPrint(pPlayer, HUD_PRINTCENTER, "Wait " + ceil(w) + " seconds\n");
+        g_PlayerFuncs.SayText(pPlayer, "[ChatSounds] AntiSpam: Your sounds are muted for " + ceil(w) + " seconds.\n");
         return HOOK_CONTINUE;
       }
       else {
-        g_SoundSystem.PlaySound(pPlayer.edict(), CHAN_AUTO, string(g_SoundList[soundArg]), 1.0f, ATTN_NORM, 0, 100, 0, true, pPlayer.pev.origin);
+        g_SoundSystem.PlaySound(pPlayer.edict(), CHAN_AUTO, string(g_SoundList[soundArg]), 1.0f, ATTN_NONE, 0, 100, 0, true, pPlayer.pev.origin);
         pPlayer.ShowOverheadSprite(g_SpriteName, 56.0f, 2.0f);
       }
       g_ChatTimes[sid] = t;

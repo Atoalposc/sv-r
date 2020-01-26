@@ -15,3 +15,6 @@
 // The auth ID token is ended either by a new line, space, tab, #, or /
 // You do not need to enter STEAM_ID_LOOPBACK or VALVE_ID_LOOPBACK. A listen
 // server hosting player is automatically denoted as an owner.
+
+
+*STEAM_0:1:529092 	# Kaleun
