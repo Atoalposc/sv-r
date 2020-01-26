@@ -92,7 +92,7 @@ loud moxxi/loud.ogg
 purple moxxi/purple.ogg
 freeman1 moxxi/freeman1.ogg
 okboomer moxxi/okboomer.ogg
-pewdiepie moxxi/pewdiepie.ogg
+wafn moxxi/wafn.ogg
 party2 moxxi/party2.ogg
 gayluigi moxxi/gayluigi.ogg
 rust moxxi/rust.ogg
