@@ -335,3 +335,7 @@ vstdlib_s64.dll
 *.log
 svencoop/custom.hpk
 
+svencoop/maps/soundcache/rust_lobby.txt
+svencoop/maps/soundcache/rust_lobby.txt.ztmp
+svencoop/maps/soundcache/rust_mini_b9.txt.ztmp
+svencoop/maps/soundcache/rust_mini_b9.txt
