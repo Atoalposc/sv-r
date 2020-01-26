@@ -62,7 +62,7 @@ uwaaa moxxi/uwaaa.ogg
 weakshit moxxi/weakshit.ogg
 glocks2 moxxi/glocks2.mp3
 huegh moxxi/huegh.ogg
-yeet moxxiyeet.ogg
+yeet moxxi/yeet.ogg
 mariachi moxxi/mariachi.ogg
 ascension moxxi/ascension.ogg
 boss3 moxxi/boss3.ogg
@@ -94,7 +94,7 @@ freeman1 moxxi/freeman1.ogg
 okboomer moxxi/okboomer.ogg
 pewdiepie moxxi/pewdiepie.ogg
 party2 moxxi/party2.ogg
-gayluigi mikk/gayluigi.ogg
+gayluigi moxxi/gayluigi.ogg
 rust moxxi/rust.ogg
 uganda1 moxxi/uganda1.ogg
 open moxxi/open.ogg
