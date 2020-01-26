@@ -116,3 +116,4 @@ horror1 moxxi/horror1.ogg
 holyshit5 moxxi/holyshit5.ogg
 boss4 moxxi/boss4.ogg
 jajajaja moxxi/jajajaja.ogg
+yeit moxxi/yeit.mp3
