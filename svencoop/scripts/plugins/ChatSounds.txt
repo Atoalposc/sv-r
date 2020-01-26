@@ -47,3 +47,4 @@ time scientist/sc_sec2_admin2.wav
 walter scientist/of4a1_sc01.wav
 yay cards/yay.ogg
 yes scientist/yees.wav
+ruun @test/ruun.ogg
