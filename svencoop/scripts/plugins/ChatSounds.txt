@@ -105,7 +105,7 @@ wtf4 moxxi/wtf4.ogg
 sniper1 moxxi/sniper1.ogg
 door1 moxxi/door1.ogg
 scaped moxxi/scaped.ogg
-voxnumber9 moxxi/voxnumber9
+voxnumber9 moxxi/voxnumber9.ogg
 omg5 moxxi/omg5.ogg
 parararam moxxi/parararam.ogg
 quad moxxi/quad.ogg
